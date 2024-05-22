@@ -14,15 +14,16 @@ primes.c: The source code file.
 
 ## How to Compile
 
-To compile the program, use the following command: **mpicc -o primes primes.c**
+To compile the program, use the following command:
+`mpicc -o primes primes.c`
 
 ## How to Run
 
 To run the program, use the mpiexec command with the desired number of processes and the upper limit N:
-**mpiexec -n <number_of_processes> ./primes <N>**
+`mpiexec -n <number_of_processes> ./primes <N>`
 
 Example:
-mpiexec -n 2 ./primes 10
+`mpiexec -n 2 ./primes 10`
 
 This command will generate a file named 10.txt containing the prime numbers up to 10.
 
